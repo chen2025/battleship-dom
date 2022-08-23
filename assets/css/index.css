@@ -1,0 +1,43 @@
+/* Your code here */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+    margin: 10px;
+}
+
+p{
+    font-size: 32px;
+    margin: 0;
+}
+
+button {
+    margin: 10px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    height: fit-content;
+    width: fit-content;
+}
+
+#cell {
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    margin: 5px;
+    width: 60px;
+}
+
+#inside{
+    visibility: hidden;
+}
